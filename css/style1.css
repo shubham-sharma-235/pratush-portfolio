@@ -609,6 +609,7 @@ h3 .o-accent {
 }
 .o-title > span {
   overflow: hidden;
+  padding: 1.2rem 0;
 }
 .o-title-small {
   display: block;
@@ -809,7 +810,7 @@ nav a {
   margin: 7vh 0;
 }
 .c-project a {
-  padding-top: 42%;
+  padding-top: 70%;
   display: block;
   text-decoration: none;
 }
@@ -2286,7 +2287,7 @@ footer #c-circle {
     /* padding-left: 13.4%; */
     display: flex;
     justify-content: space-between;
-    margin-bottom: 22vh;
+    margin-bottom: 4vh;
     align-items: baseline;
   }
   .c-works_title div {
@@ -2866,6 +2867,9 @@ html.has-scroll-dragging {
   justify-content: center;
   /* height: 80vh; */
   /* padding-bottom: 10rem; */
+}
+.about-pratush-heading{
+    padding-bottom: 2rem;
 }
 .about-pratush p{
   color: #fff;
