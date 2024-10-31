@@ -806,7 +806,7 @@ nav a {
 .c-project {
   position: relative;
   overflow: hidden;
-  border-radius: 40px;
+  border-radius: 10px;
   margin: 7vh 0;
 }
 .c-project a {
@@ -2360,7 +2360,7 @@ footer #c-circle {
 }
 @media only screen and (min-width: 768px) {
   .c-project {
-    border-radius: 50px;
+    border-radius: 20px;
     margin: 0;
   }
   /* .c-project a {
