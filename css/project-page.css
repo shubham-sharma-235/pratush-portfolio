@@ -194,8 +194,10 @@ body {
     .about-project p {
         color: #000;
         margin: 10px;
-        font-weight: 200 !important;
+        font-weight: 400 !important;
         font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        padding: 4px;
     }
 
     .achievement-images{
@@ -220,3 +222,10 @@ body {
     
 }
   
+
+@media (max-width: 600px) {
+    .project-snapshots img{
+        width: 90vw;
+        height: auto;
+    }
+}
